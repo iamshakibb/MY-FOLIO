@@ -1,0 +1,213 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    /*resizing the banner*/
+
+    .banner_img {
+        height: 340px;
+    }
+
+    /*resixing banner text size*/
+
+    .banner_text h4{
+        font-size: 1rem;
+    }
+
+    .banner_text h2{
+        font-size: 1.8rem;
+    }
+    /*about section about item*/
+
+    .about_items {
+        padding-bottom: 57px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    /*resizing about header*/
+
+    .about_header h2 {
+        font-size: 35px;
+    }
+
+    .about_header p {
+        padding: 35px;
+    }
+
+    /*resizing the service heading p*/
+    .service_heading p {
+        padding: 30px 50px 0px 0px;
+    }
+
+    /*resizing the service item*/
+
+    .sercive_item_center {
+        width: 350px;
+    }
+
+    /*resizing the my work heading*/
+    .work_heading h2 {
+        font-size: 35px;
+    }
+
+    /*resizing the my work p*/
+
+    .work_heading p{
+        padding: 0px 35px 0px 35px;
+    }
+
+    /*resizing the work item*/
+    .work_items {
+        padding: 35px;
+    }
+
+    .work_items:hover .overlay {
+        opacity: 0;
+    }
+
+    /*resizing the contact heading*/
+    .contact_heading h2 {
+        font-size: 35px;
+    }
+
+    /*resizing the contact heading p*/
+
+    .contact_heading p {
+        padding: 0px 35px 0px 35px;
+    }
+
+    /*form name resizing*/
+
+    .name {
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .email {
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .message {
+        width: 90%;
+        margin-left: 25px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    /*resizing the banner*/
+
+    .banner_img{
+        height: 400px;
+    }
+
+    /*resizing banner text size*/
+
+    .banner_text h4{
+        font-size: 1rem;
+    }
+
+    .banner_text h2{
+        font-size: 1.8rem;
+    }
+
+    /*about section about item*/
+    .about_items {
+        padding-bottom: 57px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    /*resizing about header*/
+
+    .about_header h2 {
+        font-size: 35px;
+    }
+
+    .about_header p {
+        padding: 30px;
+    }
+
+    /*resizing the service heading p*/
+    .service_heading p {
+        padding: 30px 50px 0px 0px;
+    }
+
+    /*resizing the service item*/
+
+    .sercive_item_center {
+        width: 350px;
+    }
+
+    /*resizing the my work heading*/
+    .work_heading h2 {
+        font-size: 35px;
+    }
+
+    /*resizing the my work p*/
+
+    .work_heading p{
+        padding: 0px 35px 0px 35px;
+    }
+
+    
+    /*resizing the work item*/
+    .work_items {
+        padding: 35px;
+    }
+
+    .work_items:hover .overlay {
+        opacity: 0;
+    }
+
+    /*resizing the contact heading*/
+    .contact_heading h2 {
+        font-size: 35px;
+    }
+
+    /*resizing the contact heading p*/
+
+    .contact_heading p {
+        padding: 0px 35px 0px 35px;
+    }
+
+    /*form name resizing*/
+
+    .name {
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .email {
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .message {
+        width: 90%;
+        margin-left: 25px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+ }
